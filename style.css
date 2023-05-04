@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #23252C;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    padding: 0 36px 41px 32px;
+}
+
+.card {
+    width: 317px;
+    color: white;
+    background: #1A1B21;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.profile-pic {
+    position: absolute;
+    width: 317px;
+    clip: rect(0px,317px,317px,0);
+    margin-left: -32px;
+    border-radius: 10px;
+}
+
+.profile-info {
+    padding-top: 311px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background: #161619;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.icon-btn {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+i.link {
+    font-size: 35px;
+    color: #918E9B;
+}
+
+div.desc {
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.desc > h3 {
+    font-weight: 400;
+    color: #F3BF99;
+    margin: 0;
+}
+
+.btn-section {
+    display: flex;
+    gap: 17px;
+}
+
+button {
+    font-family: 'Inter';
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+}
+
+.btn-blue {
+    background-color: #5093E2;
+    color: #fff;
+}
+
+.btn-light {
+    background-color: #ffffff;
+    color: #374151;
+}
